@@ -35,6 +35,7 @@ public class CinePantinController extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		// Un nouveau commentaire 1.
+		// commentaire 2.
 	}
 
 }
