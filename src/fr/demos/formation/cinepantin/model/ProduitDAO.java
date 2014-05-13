@@ -7,9 +7,10 @@ import fr.demos.formation.cinepantin.model.DAOException;
 
 public interface ProduitDAO {
 	Produit findById(String id);
-	Collection<Produit> findByNom(String nom) ;
+	Collection<Produit> findByTitre(String titre) ;
 	Collection<Produit> findAll() throws SQLException, Exception;
-	Collection<Produit> findByFournisseur(Client client);
+	Collection<Produit> findByClient(Client client);
+	
 	void create(Produit d) throws DAOException, SQLException, Exception;
 	void update(Produit d) throws DAOException;
 	void delete(Produit d) throws DAOException;
